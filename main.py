@@ -12,7 +12,7 @@ def read_spatial_raster(path: Union[str, Path]) -> gdal.Dataset:
     assert dataset is not None, "Read spatial raster returned None"
     return dataset
 
-raster_file = "N-34-A-a-1-1.tif"
+raster_file = "N-34-111-A-a-1-1.tif"
 raster_dataset = read_spatial_raster(raster_file)    
 
 band = raster_dataset.GetRasterBand(1)
