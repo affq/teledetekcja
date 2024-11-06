@@ -5,6 +5,10 @@ from pathlib import Path
 import shapely
 import numpy as np
 import geopandas as gpd
+import matplotlib.pyplot as plt
+
+def show_grayscale_matplotlib(array: np.ndarray):  
+    plt.imshow(array, cmap='gray')
 
 def read_spatial_raster(path: Union[str, Path]) -> gdal.Dataset:
     dataset = gdal.Open(str(path))
