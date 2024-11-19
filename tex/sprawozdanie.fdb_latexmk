@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1732058487.24275 "c:/Users/adria/Desktop/STUDIA_FOLDERY/TELEDETEKCJA/tex/sprawozdanie.tex" "sprawozdanie.pdf" "sprawozdanie" 1732058488.70593 0
+["pdflatex"] 1732058940.69835 "c:/Users/adria/Desktop/STUDIA_FOLDERY/TELEDETEKCJA/tex/sprawozdanie.tex" "sprawozdanie.pdf" "sprawozdanie" 1732058942.13902 0
   "C:/Users/adria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1731971513 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/adria/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1200.pk" 1684708379 31952 e91feeb5504c30dc59296b94900ee460 ""
   "C:/Users/adria/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1440.pk" 1679012812 40136 31d5220b499ce0ec017231a80b9b6ffb ""
@@ -100,7 +100,7 @@
   "C:/Users/adria/AppData/Local/Programs/MiKTeX/tex/latex/subfigure/subfigure.sty" 1114282570 14815 1d3da78e0f66f3c62133fbabffd13cf5 ""
   "C:/Users/adria/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1667242266 12691 5b542990fe866f3d772f71346cf85b95 ""
   "C:/Users/adria/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/adria/Desktop/STUDIA_FOLDERY/TELEDETEKCJA/tex/sprawozdanie.tex" 1732058486 10761 53e6200811ee58b7656a08cd43fdd6fc ""
+  "c:/Users/adria/Desktop/STUDIA_FOLDERY/TELEDETEKCJA/tex/sprawozdanie.tex" 1732058940 11964 387e730e3984f2648591fc50b181c518 ""
   "spektralne/bi_budynek0_2015.png" 1732057717 4641 44173c77289920dd9282430c4cba0d52 ""
   "spektralne/bi_budynek0_2023.png" 1732057719 5485 16104a8750f60c4e60c711d24d9aa52a ""
   "spektralne/bi_budynek3_2015.png" 1732057717 4552 82d8beca50caa6f487e8b892bac9feb1 ""
@@ -137,9 +137,9 @@
   "spektralne/rgir_budynek0.png" 1732057717 4504 1ec5d946c9b891a38cd73da5a22cd38f ""
   "spektralne/rgir_budynek3.png" 1732057717 4010 c620fa99eac761b70c311ecb6a27c817 ""
   "spektralne/rgir_budynek7.png" 1732057717 4894 92c7a0fe30079af9320369af09e63c55 ""
-  "sprawozdanie.aux" 1732058488 3116 e46f2e87d1f45efee4ad010c491b45ff "pdflatex"
-  "sprawozdanie.out" 1732058488 4100 cb4ea782daaae03a70f0f285e0a116bd "pdflatex"
-  "sprawozdanie.tex" 1732058486 10761 53e6200811ee58b7656a08cd43fdd6fc ""
+  "sprawozdanie.aux" 1732058941 3222 830dfed46c669073f78420646cc7bcdf "pdflatex"
+  "sprawozdanie.out" 1732058941 4189 a5852fb0bf7de783b6a2cd3727962e1a "pdflatex"
+  "sprawozdanie.tex" 1732058940 11964 387e730e3984f2648591fc50b181c518 ""
   (generated)
   "sprawozdanie.aux"
   "sprawozdanie.log"
