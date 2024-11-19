@@ -7,9 +7,10 @@
 \usepackage{float}
 \usepackage[T1]{fontenc}
 \usepackage{subfigure}
-\usepackage{caption}
 \geometry{margin=1in}                   % Definicja marginesów
 \usepackage{array}
+\usepackage{caption}
+\usepackage{subcaption}
 
 % Tytuł i autor
 \title{Obrazy kanałowe i wskaźniki spektralne}
@@ -34,46 +35,94 @@ Danymi do zadania były zdjęcia zarejestrowane w zakresie RGB oraz CIR z lat 20
 \section{Realizacja}
 \subsection{Przedstawienie budynków w poszczególnych kanałach spektralnych}
 
-\subsubsection{Przedstawienie budynku nr 1 w poszczególnych kanałach spektralnych}
+\subsubsection{Budynek nr 1}
+
+% \begin{figure}[H]
+% \hfill
+% \subfigure[NIR]{\includegraphics[width=3.5cm]{spektralne/nir_budynek0.png}}
+% \hfill
+% \subfigure[RED]{\includegraphics[width=3.5cm]{spektralne/red_budynek0.png}}
+% \hfill
+% \subfigure[GREEN]{\includegraphics[width=3.5cm]{spektralne/green_budynek0.png}}
+% \hfill
+% \subfigure[BLUE]{\includegraphics[width=3.5cm]{spektralne/blue_budynek0.png}}
+% \hfill
+% \end{figure}
 
 \begin{figure}[H]
-\hfill
-\subfigure[NIR]{\includegraphics[width=3.5cm]{spektralne/nir_budynek0.png}}
-\hfill
-\subfigure[RED]{\includegraphics[width=3.5cm]{spektralne/red_budynek0.png}}
-\hfill
-\subfigure[GREEN]{\includegraphics[width=3.5cm]{spektralne/green_budynek0.png}}
-\hfill
-\subfigure[BLUE]{\includegraphics[width=3.5cm]{spektralne/blue_budynek0.png}}
-\hfill
+    \centering
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/nir_budynek0.png}
+        \caption*{NIR}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/red_budynek0.png}
+        \caption*{RED}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/green_budynek0.png}
+        \caption*{GREEN}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/blue_budynek0.png}
+        \caption*{BLUE}
+    \end{minipage}
 \end{figure}
 
-\subsubsection{Przedstawienie budynku nr 2 w poszczególnych kanałach spektralnych}
+\subsubsection{Budynek nr 2}
 
 \begin{figure}[H]
-\hfill
-\subfigure[NIR]{\includegraphics[width=3.5cm]{spektralne/nir_budynek3.png}}
-\hfill
-\subfigure[RED]{\includegraphics[width=3.5cm]{spektralne/red_budynek3.png}}
-\hfill
-\subfigure[GREEN]{\includegraphics[width=3.5cm]{spektralne/green_budynek3.png}}
-\hfill
-\subfigure[BLUE]{\includegraphics[width=3.5cm]{spektralne/blue_budynek3.png}}
-\hfill
+    \centering
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/nir_budynek3.png}
+        \caption*{NIR}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/red_budynek3.png}
+        \caption*{RED}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/green_budynek3.png}
+        \caption*{GREEN}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/blue_budynek3.png}
+        \caption*{BLUE}
+    \end{minipage}
 \end{figure}
 
-\subsubsection{Przedstawienie budynku nr 3 w poszczególnych kanałach spektralnych}
+\subsubsection{Budynek nr 3}
 
 \begin{figure}[H]
-\hfill
-\subfigure[NIR]{\includegraphics[width=3.5cm]{spektralne/nir_budynek7.png}}
-\hfill
-\subfigure[RED]{\includegraphics[width=3.5cm]{spektralne/red_budynek7.png}}
-\hfill
-\subfigure[GREEN]{\includegraphics[width=3.5cm]{spektralne/green_budynek7.png}}
-\hfill
-\subfigure[BLUE]{\includegraphics[width=3.5cm]{spektralne/blue_budynek7.png}}
-\hfill
+    \centering
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/nir_budynek7.png}
+        \caption*{NIR}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/red_budynek7.png}
+        \caption*{RED}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/green_budynek7.png}
+        \caption*{GREEN}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/blue_budynek7.png}
+        \caption*{BLUE}
+    \end{minipage}
 \end{figure}
 
 \newpage
@@ -122,54 +171,100 @@ Danymi do zadania były zdjęcia zarejestrowane w zakresie RGB oraz CIR z lat 20
 
 \subsubsection{Obiekt 1}
 \begin{figure}[H]
-\hfill
-\subfigure[RGB]{\includegraphics[width=3.5cm]{spektralne/rgb_budynek7.png}}
-\hfill
-\subfigure[IrGB]{\includegraphics[width=3.5cm]{spektralne/irgb_budynek7.png}}
-\hfill
-\subfigure[?]{\includegraphics[width=3.5cm]{spektralne/irgb_budynek7.png}}
-\hfill
-\subfigure[?]{\includegraphics[width=3.5cm]{spektralne/irgb_budynek7.png}}
-\hfill
+    \centering
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/rgb_budynek7.png}
+        \caption*{RGB}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/irgb_budynek7.png}
+        \caption*{IrGB}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/irgb_budynek7.png}
+        \caption*{?}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/irgb_budynek7.png}
+        \caption*{?}
+    \end{minipage}
 \end{figure}
 
 \subsubsection{Obiekt 2}
 \begin{figure}[H]
-\hfill
-\subfigure[RGB]{\includegraphics[width=3.5cm]{spektralne/rgb_budynek0.png}}
-\hfill
-\subfigure[IrGB]{\includegraphics[width=3.5cm]{spektralne/irgb_budynek0.png}}
-\hfill
-\subfigure[?]{\includegraphics[width=3.5cm]{spektralne/irgb_budynek0.png}}
-\hfill
-\subfigure[?]{\includegraphics[width=3.5cm]{spektralne/irgb_budynek0.png}}
-\hfill
+    \centering
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/rgb_budynek0.png}
+        \caption*{RGB}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/irgb_budynek0.png}
+        \caption*{IrGB}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/irgb_budynek0.png}
+        \caption*{?}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/irgb_budynek0.png}
+        \caption*{?}
+    \end{minipage}
 \end{figure}
 
 \subsubsection{Obiekt 3}
 \begin{figure}[H]
-\hfill
-\subfigure[RGB]{\includegraphics[width=3.5cm]{spektralne/rgb_budynek3.png}}
-\hfill
-\subfigure[IrGB]{\includegraphics[width=3.5cm]{spektralne/irgb_budynek3.png}}
-\hfill
-\subfigure[?]{\includegraphics[width=3.5cm]{spektralne/irgb_budynek3.png}}
-\hfill
-\subfigure[?]{\includegraphics[width=3.5cm]{spektralne/irgb_budynek3.png}}
-\hfill
+    \centering
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/rgb_budynek3.png}
+        \caption*{RGB}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/irgb_budynek3.png}
+        \caption*{IrGB}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/irgb_budynek3.png}
+        \caption*{?}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/irgb_budynek3.png}
+        \caption*{?}
+    \end{minipage}
 \end{figure}
+
 
 \subsection{Porównanie wyglądu obiektów na wskaźniku spektralnym NDVI oraz jednym innym wybranym wskaźniku.}
 \subsubsection{NDVI}
 
 \begin{figure}[H]
-\hfill
-\subfigure[Obiekt 1]{\includegraphics[width=3.5cm]{spektralne/ndvi_budynek7.png}}
-\hfill
-\subfigure[Obiekt 2]{\includegraphics[width=3.5cm]{spektralne/ndvi_budynek0.png}}
-\hfill
-\subfigure[Obiekt 3]{\includegraphics[width=3.5cm]{spektralne/ndvi_budynek3.png}}
-\hfill
+    \centering
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/ndvi_budynek3.png}
+        \caption*{Obiekt 1}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/ndvi_budynek0.png}
+        \caption*{Obiekt 2}
+    \end{minipage}
+    \begin{minipage}{0.24\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{spektralne/ndvi_budynek7.png}
+        \caption*{Obiekt 3}
+    \end{minipage}
 \end{figure}
 
 \newpage
